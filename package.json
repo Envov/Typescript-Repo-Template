@@ -1,5 +1,5 @@
 {
-  "name": "acme",
+  "name": "typescript-tepo-template",
   "version": "0.0.1",
   "description": "acme",
   "main": "lib/cjs/index.js",
