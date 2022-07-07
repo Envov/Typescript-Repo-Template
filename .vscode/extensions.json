@@ -1,4 +1,9 @@
 {
-    "recommendations": ["dbaeumer.vscode-eslint","esbenp.prettier-vscode","ahmadalli.vscode-nginx-conf","eamodio.gitlens"],
-    "unwantedRecommendations": []
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ahmadalli.vscode-nginx-conf",
+    "eamodio.gitlens"
+  ],
+  "unwantedRecommendations": []
 }

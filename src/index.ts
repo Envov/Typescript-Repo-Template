@@ -1,1 +1,3 @@
-export default 121;
+import explame from "@src/helper/explame";
+explame();
+export default "Typescript Repo Template";

@@ -1,14 +1,17 @@
 {
-	"compilerOptions": {
-		"target": "ES5",
-		"module": "CommonJS",
-		"baseUrl": ".",
-		"strict": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"outDir": "./lib/cjs",
-		"moduleResolution": "Node",
-		"declaration": true
-	},
-	"include": ["./src/*"]
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/cjs",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "paths": {
+      "@src/*": ["src/*"]
+    }
+  },
+  "include": ["./src/*"]
 }
