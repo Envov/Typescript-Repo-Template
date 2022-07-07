@@ -1,0 +1,9 @@
+node_modules
+/ssh_keys
+private.key
+public.key
+/.cache
+/build
+/public/build
+.env
+lib

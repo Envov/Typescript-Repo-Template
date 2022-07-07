@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "airbnb-base/legacy",
+        "jest-enzyme",
+        "prettier",
+        "eslint-config-prettier"
+    ],
+    "plugins": [
+        "import"
+    ],
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": false
+    }
+}
